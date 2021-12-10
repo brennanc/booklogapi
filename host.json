@@ -1,6 +1,14 @@
 {
   "version": "2.0",
   "logging": {
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Trace",
+      "Function": "Debug"
+    },
+    "console": {
+      "isEnabled": true
+    },
     "applicationInsights": {
       "samplingSettings": {
         "isEnabled": true,
